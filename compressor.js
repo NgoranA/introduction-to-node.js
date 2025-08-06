@@ -2,11 +2,11 @@ import fs from "node:fs"
 import zlib from "node:zlib"
 import { pipeline } from 'node:stream'
 
-const input_stream = fs.createReadStream("t.csv.gz")
+const input_stream = fs.createReadStream("t.csv")
 
 const gzip_transform = zlib.createGzip()
 
-const output_stream = fs.createWriteStream("t.csv.gz.gz")
+const output_stream = fs.createWriteStream("t.csv.gz")
 
 pipeline(
   input_stream,
