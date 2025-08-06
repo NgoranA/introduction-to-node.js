@@ -50,7 +50,7 @@ readFilePromise(bigFile).then(contents => {
   return readFilePromise(smallFile)
 }).then(contents => {
   console.log(contents)
-}).catch(err => console.error(err)
+}).catch(err => console.error(err))
 
 
 
