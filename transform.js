@@ -6,4 +6,7 @@ const upperCaseTransform = new Transform({
   }
 })
 
+// piping the stream
 process.stdin.pipe(upperCaseTransform).pipe(process.stdout)
+
+
