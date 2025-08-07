@@ -1,0 +1,22 @@
+{
+  "name": "myproject",
+  "version": "0.0.1",
+  "description": "kdjfgksjdlfgjsldkfjgsldkjfgksjdlfgjdfgjsd fjkdfjld sfgkl",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "a",
+    "as",
+    "asdfk",
+    "asdf",
+    "asdf",
+    "asdf",
+    "adf",
+    "asdf",
+    "asdf"
+  ],
+  "author": "ngorana",
+  "license": "MIT"
+}
